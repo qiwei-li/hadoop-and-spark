@@ -1,18 +1,10 @@
 # hadoop-and-spark
-Small projects using Hadoop and Spark
+Guide to use Hadoop with R and do machine learning problem with Spark
 
-### Hadoop Install
-The following links are some useful links I found.
+### 1. Hadoop Install
+I use this [guide](https://getblueshift.com/setting-up-hadoop-2-4-and-pig-0-12-on-osx-locally/) to install Hadoop using homebrew. I use this [guide](http://zhongyaonan.com/hadoop-tutorial/setting-up-hadoop-2-6-on-mac-osx-yosemite.html) to learn how to browse the web interface for the NameNode and the ResourceManager. I use this [guide](http://blog.matthewrathbone.com/2013/04/17/what-is-hadoop.html) to understand the file system. I use this [guide](https://coderwall.com/p/imxf6g/running-wordcount-on-hadoop-using-r-script) to understand how Hadoop Streaming works.
 
-[Use homebrew to install](https://getblueshift.com/setting-up-hadoop-2-4-and-pig-0-12-on-osx-locally/)
-
-[Browse the web interface for the NameNode and the ResourceManager ](http://zhongyaonan.com/hadoop-tutorial/setting-up-hadoop-2-6-on-mac-osx-yosemite.html)
-
-[Understand the file system](http://blog.matthewrathbone.com/2013/04/17/what-is-hadoop.html)
-
-[Hadoop Streaming](https://coderwall.com/p/imxf6g/running-wordcount-on-hadoop-using-r-script)
-
-### Hadoop with R
+### 2. Hadoop with R
 **Test locally with bash pipes**
 
 ```
@@ -74,3 +66,8 @@ the	3
 then	1
 
 ```
+### 3. Spark on Databrick
+Databricks is a cloud-based Spark platform. You can get 6GB of memory with databricks community edition. This is where I started my first machine learning projects with Spark.
+
+Below is a screenshot of the python notebook. I explained
+![ex](spark-on-databricks/notebook.png)
